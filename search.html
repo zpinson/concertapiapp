@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results | Shows for you!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="assets/js/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="img-head">
+        <h1 class="white-text">Concert Finder</h1>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row">
+      <form id="search-form">
+        <input
+          id="search-input"
+          class="col s4 offset-s4 center-align"
+          type="text"
+          placeholder="Search for another band/artist"
+        />
+      </div>
+        <div class="row">
+          <button class="btn col s4 offset-s4">Search</button>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col s12 center-align">
+        <div class="artistCard" id="artistImg"></div>
+    </div>
+    </div>
+      <div
+        class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary"
+      >
+        <div class="col-12 col-md-9 p-3 text-light">
+          <h2 class="center-align">Upcoming Shows: <span id="result-text"></span></h2>
+          <br>
+          <div class="bieber" id="result-content"></div>
+        </div>
+        <a href="index.html" class="waves-effect waves-light btn btn-block btn-danger"
+          >&larr; Go back.</a
+        >
+      </div>
+    </main>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD-1NVl_YZVHBlWGXQUP5k899ykfBq4Do"></script>
+    <script src="config.js"></script>
+    <script src="assets/js/script.js"></script>
+  
+   
+  </body>
+</html>

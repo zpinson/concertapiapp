@@ -1,0 +1,33 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/MSG_SEA.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 25px;
+  font-family: "Abril Fatface";
+}
+
+header h1 {
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+body {
+  font-family: "Abril Fatface";
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.bieber {
+  text-align: center;
+}
